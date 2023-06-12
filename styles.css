@@ -1,0 +1,74 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Roboto:ital@1&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+.container {
+    background-image: url(DonutsBG.png);
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    
+}
+h3 {
+    font-family: 'Caveat', cursive;
+    font-size: 100px;
+    color: white;
+    
+    
+}
+
+.compras {
+    width: 100%;
+    max-width: 550px;
+    height: 330px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: rgb(165, 155, 155, 0.719);
+    border: 2px solid rgb(165, 155, 155, 0.719);
+    
+}
+
+input {
+    width: 70%;
+    height: 40px;
+    border-radius: 5px;
+    margin: 8px 75px;
+}   
+select {
+    width: 95%;
+    height: 23px;
+    color: #072859 ;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 5px;
+    margin: 0px 10px;
+    
+
+}
+p {
+    color: #4e4f52;
+}
+
+
+
