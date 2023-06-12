@@ -38,7 +38,7 @@ h3 {
 .compras {
     width: 100%;
     max-width: 550px;
-    height: 330px;
+    height: 350px;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
@@ -52,8 +52,12 @@ input {
     width: 70%;
     height: 40px;
     border-radius: 5px;
-    margin: 8px 75px;
+    margin: 8px 10px;
+    display: flex;
+    justify-content: center;
+    
 }   
+
 select {
     width: 95%;
     height: 23px;
@@ -64,11 +68,29 @@ select {
     border-radius: 5px;
     margin: 0px 10px;
     
-
 }
+
 p {
     color: #4e4f52;
 }
 
-
+label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Caveat', cursive;
+    font-size: 22px;
+    
+    
+}
+button {
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;    
+    border: 2px solid #ccc;
+    margin-left: 400px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
 

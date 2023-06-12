@@ -18,13 +18,15 @@
                 <option value="12">Donut churros</option>
                 <option value="15">Donut ganache</option>
             </select>
-            <input type="number" min="0" onchange="somaDonuts()" id="qtdDonuts" value="0" placeholder="QUAL A QUANTIDADE?">
-            <input type="text" readonly id="subTotal" placeholder="SEU SUBTOTAL AQUI">
-            <input type="text" readonly id="total" placeholder="TOTAL">
+            <label>Quantidade<input class="qtd" type="number" min="0" onchange="somaDonuts()" id="qtdDonuts" value="0" placeholder="QUAL A QUANTIDADE?"></label>
+            <label>Sucbtotal<input type="text" readonly id="subTotal" placeholder="SEU SUBTOTAL AQUI"></label>
+            <label>Total<input type="text" readonly id="total" placeholder="TOTAL"></label>
             <P>Taxa entrega 0.05%</P>
+            <button onclick="adicionar()">Adicionar ao Carrinho</button> 
         </form>
-        
+        <button onclick="finalizar()">Finalizar Pedido</button>
     </div>
+     
     <script src="script.js"></script>
 </body>
 
